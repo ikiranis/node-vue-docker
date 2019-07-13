@@ -10,7 +10,7 @@
 docker-compose build
 ``
 
-- Run to create the container
+- Run to create the container and login to terminal
 
 ``
 docker-compose run --rm --service-ports nod_dev_env
