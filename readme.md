@@ -17,6 +17,12 @@ docker-compose build
 docker-compose run --rm --service-ports nod_dev_env
 ``
 
+Or
+
+``
+docker exec -ti dentistapp_nod_dev_env_run_1 /bin/bash
+``
+
 You are ready to run npm and vue commands, like:
 
 ``
