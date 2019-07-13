@@ -7,4 +7,4 @@ services:
       - 8085:8085
       - 8086:8086
     volumes:
-      - ./:/home/node/ap
+      - ./:/home/node/app
