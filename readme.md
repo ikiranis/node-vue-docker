@@ -3,6 +3,7 @@
 ### Install
 
 - Clone this files to your project folder
+(Warning: You must create your project inside this folder)
 
 - Run to build the docker image
 
@@ -19,6 +20,10 @@ docker-compose run --rm --service-ports nod_dev_env
 You are ready to run npm and vue commands, like:
 
 ``
+vue create myProject
+``
+
+``
 vue ui -h 0.0.0.0 -p 8086
 ``
 
@@ -31,4 +36,5 @@ npm install
 ``
 npm run serve
 ``
+
 
