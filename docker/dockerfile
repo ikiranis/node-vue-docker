@@ -12,6 +12,7 @@ EXPOSE 8085
 EXPOSE 8086
 
 RUN npm install -g @vue/cli
+RUN npm install -g @gridsome/cli
 
 ENTRYPOINT /bin/bash
 
