@@ -1,4 +1,4 @@
-# Dev environment with node and vue.js
+# Dev environment with node, vue.js and gridsome
 
 ### Install
 
